@@ -31,6 +31,11 @@ class DetailMahasiswaPage extends StatelessWidget {
               'Jurusan: ${mahasiswa['jurusan']}',
               style: const TextStyle(fontSize: 16),
             ),
+            const SizedBox(height: 4),
+            Text(
+              'Semester: ${mahasiswa['semester']}',
+              style: const TextStyle(fontSize: 16),
+            ),
           ],
         ),
       ),
